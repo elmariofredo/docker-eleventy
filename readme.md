@@ -1,0 +1,35 @@
+# Docker Eleventy
+
+A docker container for Eleventy.
+
+## Getting Started
+
+These instructions will cover usage information and for the docker container.
+
+### Prerequisities
+
+
+In order to run this container you'll need docker installed.
+
+* [Windows](https://docs.docker.com/windows/started)
+* [OS X](https://docs.docker.com/mac/started/)
+* [Linux](https://docs.docker.com/linux/started/)
+
+### Usage
+
+#### Container Parameters
+
+List the different parameters available to your container
+
+```shell
+docker run mikebell/eleventy:latest serve
+```
+
+#### Volumes
+
+* `/usr/src` - Location in container
+
+
+## Versioning
+
+Versioning follows Eleventys versioning.
